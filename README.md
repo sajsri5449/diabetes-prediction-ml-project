@@ -1,5 +1,14 @@
 # 🩺 Diabetes Prediction ML Project
 
+# 🌐 Live Project Deployment
+
+✅ Streamlit Web App:
+https://diabetes-prediction-ml-project-q2nc7oep6neaauwybnxv8j.streamlit.app/
+
+This web application predicts whether a person is diabetic or non-diabetic using Machine Learning and SVM model.
+
+---
+
 ## 📌 Project Overview
 
 This project is a Machine Learning based Diabetes Prediction System developed using Python and Scikit-learn.
