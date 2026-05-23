@@ -139,25 +139,35 @@ streamlit run app.py
 ```
 
 ---
+# 📊 Project Workflow Diagram
 
-
-# 📊 Workflow Diagram
-
-Dataset
-↓
-Data Analysis
-↓
+```text
+PIMA Diabetes Dataset
+        ↓
+Data Collection
+        ↓
+Data Analysis & Visualization
+        ↓
 Data Preprocessing
-↓
-Feature Scaling
-↓
+        ↓
+Feature Selection
+        ↓
+Data Standardization
+        ↓
 Train-Test Split
-↓
+        ↓
 SVM Model Training
-↓
+        ↓
+Model Evaluation
+        ↓
+Accuracy Calculation
+        ↓
 Prediction System
-↓
-Accuracy Evaluation
+        ↓
+Streamlit Web Application
+```
+
+
 
 ---
 
