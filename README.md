@@ -1,29 +1,41 @@
 # 🩺 Diabetes Prediction ML Project
 
-# 📌 Project Overview
+## 📌 Project Overview
+
 This project is a Machine Learning based Diabetes Prediction System developed using Python and Scikit-learn.
+
 The system predicts whether a person is diabetic or non-diabetic based on important medical parameters such as glucose level, BMI, insulin, age, blood pressure, etc.
 
 The project also includes a Streamlit web application for real-time prediction.
+
 ---
+
 # 🎯 Objectives
+
 - Predict diabetes using Machine Learning
 - Perform data preprocessing and analysis
 - Train ML classification model
 - Evaluate model accuracy
 - Build a real-time prediction system
 - Deploy model using Streamlit
+
 ---
+
 # 📂 Dataset Information
+
 Dataset Used:
 PIMA Indians Diabetes Dataset
+
 Total Records:
 768
+
 Total Features:
 8
+
 Target Variable:
 - 0 → Non-Diabetic
 - 1 → Diabetic
+
 Features Used:
 - Pregnancies
 - Glucose
@@ -33,10 +45,14 @@ Features Used:
 - BMI
 - DiabetesPedigreeFunction
 - Age
+
 ---
+
 # 🛠 Technologies Used
+
 ## Programming Language
 - Python
+
 ## Libraries
 - NumPy
 - Pandas
@@ -44,11 +60,15 @@ Features Used:
 - Matplotlib
 - Seaborn
 - Streamlit
+
 ## Platform
 - Google Colab
 - GitHub
+
 ---
+
 # ⚙ Machine Learning Workflow
+
 ## 1️⃣ Data Collection
 Loaded diabetes dataset using Pandas.
 
@@ -79,32 +99,50 @@ Calculated training and testing accuracy.
 
 ## 8️⃣ Prediction System
 Created predictive system using user input values.
---
+
+---
+
 # 🤖 Machine Learning Model Used
+
 ## Support Vector Machine (SVM)
+
 SVM is a supervised machine learning algorithm used for classification problems.
+
 Reason for choosing SVM:
 - Good accuracy
 - Works well on classification datasets
 - Efficient for smaller datasets
+
 ---
+
 # 📈 Model Accuracy
+
 | Type | Accuracy |
 |------|-----------|
 | Training Accuracy | 78% |
 | Testing Accuracy | 77% |
+
 ---
+
 # 🖥 Streamlit Web Application
+
 This project also includes a Streamlit web app where users can:
+
 ✅ Enter medical data  
 ✅ Predict diabetes instantly  
 ✅ Use model through browser interface
+
 Run locally using:
+
 ```bash
 streamlit run app.py
 ```
+
 ---
+
+
 # 📊 Workflow Diagram
+
 Dataset
 ↓
 Data Analysis
